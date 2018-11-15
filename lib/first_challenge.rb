@@ -13,7 +13,7 @@ def first_challenge
     }
   }
 
-return contacts["Freddy Mercury"][:favorite_icecream_flavors]["strawberry"].delete
-
+contacts["Freddy Mercury"][:favorite_icecream_flavors]["strawberry"].delete
+return contacts
   contacts
 end

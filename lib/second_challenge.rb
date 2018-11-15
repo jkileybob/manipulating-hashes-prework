@@ -9,8 +9,8 @@ def second_challenge
   #code your solution here!
 groceries.collect do |genre_of_food, food_items|
   food_items.collect do |food_items, value|
-    value.flatten
+    value
   end
 end
-groceries
+groceries.flatten
 end
